@@ -15,6 +15,7 @@
 		A2A7581C1BFC5BE900DCBF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A7581A1BFC5BE900DCBF0A /* LaunchScreen.storyboard */; };
 		A2A7583D1BFC702C00DCBF0A /* RFTagCloudPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A7583A1BFC702C00DCBF0A /* RFTagCloudPageView.m */; };
 		A2A7583E1BFC702C00DCBF0A /* RFTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A7583C1BFC702C00DCBF0A /* RFTagCloudView.m */; };
+		A2A758411BFC8D2F00DCBF0A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2A758401BFC8D2F00DCBF0A /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A2A7583A1BFC702C00DCBF0A /* RFTagCloudPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudPageView.m; sourceTree = "<group>"; };
 		A2A7583B1BFC702C00DCBF0A /* RFTagCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudView.h; sourceTree = "<group>"; };
 		A2A7583C1BFC702C00DCBF0A /* RFTagCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudView.m; sourceTree = "<group>"; };
+		A2A758401BFC8D2F00DCBF0A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		A2A7580B1BFC5BE900DCBF0A /* RFTagCloud */ = {
 			isa = PBXGroup;
 			children = (
+				A2A7583F1BFC8D2F00DCBF0A /* Demo */,
 				A2A758381BFC702C00DCBF0A /* Classes */,
 				A2A7580F1BFC5BE900DCBF0A /* AppDelegate.h */,
 				A2A758101BFC5BE900DCBF0A /* AppDelegate.m */,
@@ -96,6 +99,15 @@
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		A2A7583F1BFC8D2F00DCBF0A /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A2A758401BFC8D2F00DCBF0A /* demo.gif */,
+			);
+			name = Demo;
+			path = ../Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A7581C1BFC5BE900DCBF0A /* LaunchScreen.storyboard in Resources */,
+				A2A758411BFC8D2F00DCBF0A /* demo.gif in Resources */,
 				A2A758191BFC5BE900DCBF0A /* Assets.xcassets in Resources */,
 				A2A758171BFC5BE900DCBF0A /* Main.storyboard in Resources */,
 			);
@@ -324,6 +337,7 @@
 				A2A758221BFC5BE900DCBF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
