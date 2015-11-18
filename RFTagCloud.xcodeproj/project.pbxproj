@@ -13,8 +13,8 @@
 		A2A758171BFC5BE900DCBF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A758151BFC5BE900DCBF0A /* Main.storyboard */; };
 		A2A758191BFC5BE900DCBF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A758181BFC5BE900DCBF0A /* Assets.xcassets */; };
 		A2A7581C1BFC5BE900DCBF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A7581A1BFC5BE900DCBF0A /* LaunchScreen.storyboard */; };
-		A2A758261BFC5C6100DCBF0A /* RFTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A758251BFC5C6100DCBF0A /* RFTagCloudView.m */; };
-		A2A758291BFC5C6E00DCBF0A /* RFTagCloudPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A758281BFC5C6E00DCBF0A /* RFTagCloudPageView.m */; };
+		A2A7583D1BFC702C00DCBF0A /* RFTagCloudPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A7583A1BFC702C00DCBF0A /* RFTagCloudPageView.m */; };
+		A2A7583E1BFC702C00DCBF0A /* RFTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A7583C1BFC702C00DCBF0A /* RFTagCloudView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		A2A758181BFC5BE900DCBF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A7581B1BFC5BE900DCBF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A7581D1BFC5BE900DCBF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2A758241BFC5C6100DCBF0A /* RFTagCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudView.h; sourceTree = "<group>"; };
-		A2A758251BFC5C6100DCBF0A /* RFTagCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudView.m; sourceTree = "<group>"; };
-		A2A758271BFC5C6E00DCBF0A /* RFTagCloudPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudPageView.h; sourceTree = "<group>"; };
-		A2A758281BFC5C6E00DCBF0A /* RFTagCloudPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudPageView.m; sourceTree = "<group>"; };
+		A2A758391BFC702C00DCBF0A /* RFTagCloudPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudPageView.h; sourceTree = "<group>"; };
+		A2A7583A1BFC702C00DCBF0A /* RFTagCloudPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudPageView.m; sourceTree = "<group>"; };
+		A2A7583B1BFC702C00DCBF0A /* RFTagCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTagCloudView.h; sourceTree = "<group>"; };
+		A2A7583C1BFC702C00DCBF0A /* RFTagCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTagCloudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		A2A7580B1BFC5BE900DCBF0A /* RFTagCloud */ = {
 			isa = PBXGroup;
 			children = (
-				A2A758231BFC5C1E00DCBF0A /* Classes */,
+				A2A758381BFC702C00DCBF0A /* Classes */,
 				A2A7580F1BFC5BE900DCBF0A /* AppDelegate.h */,
 				A2A758101BFC5BE900DCBF0A /* AppDelegate.m */,
 				A2A758121BFC5BE900DCBF0A /* ViewController.h */,
@@ -86,15 +86,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A2A758231BFC5C1E00DCBF0A /* Classes */ = {
+		A2A758381BFC702C00DCBF0A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A2A758241BFC5C6100DCBF0A /* RFTagCloudView.h */,
-				A2A758251BFC5C6100DCBF0A /* RFTagCloudView.m */,
-				A2A758271BFC5C6E00DCBF0A /* RFTagCloudPageView.h */,
-				A2A758281BFC5C6E00DCBF0A /* RFTagCloudPageView.m */,
+				A2A758391BFC702C00DCBF0A /* RFTagCloudPageView.h */,
+				A2A7583A1BFC702C00DCBF0A /* RFTagCloudPageView.m */,
+				A2A7583B1BFC702C00DCBF0A /* RFTagCloudView.h */,
+				A2A7583C1BFC702C00DCBF0A /* RFTagCloudView.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A7583D1BFC702C00DCBF0A /* RFTagCloudPageView.m in Sources */,
 				A2A758141BFC5BE900DCBF0A /* ViewController.m in Sources */,
 				A2A758111BFC5BE900DCBF0A /* AppDelegate.m in Sources */,
-				A2A758291BFC5C6E00DCBF0A /* RFTagCloudPageView.m in Sources */,
+				A2A7583E1BFC702C00DCBF0A /* RFTagCloudView.m in Sources */,
 				A2A7580E1BFC5BE900DCBF0A /* main.m in Sources */,
-				A2A758261BFC5C6100DCBF0A /* RFTagCloudView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
