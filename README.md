@@ -11,3 +11,6 @@ pod 'RFTagCloud'
 ![](https://github.com/refinemobi/RFTagCloud/raw/master/Demo/demo.gif)  
 ##Contact
 Email:refinemobi@hotmail.com
+
+##Donate
+via Alipay: refinemobi@hotmail.com
